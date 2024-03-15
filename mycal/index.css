@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+#main-container{
+  width: 20vw;
+  height: 60vh;
+  border: 0.1vh solid black;
+  border-radius: 2vh;
+}
+
+#main-display{
+  font-size: 5vh;
+  width: 17vw;
+  height: 8vh;
+  border: 0.1vh solid black;
+  border-radius: 2vh;
+  margin-top: 3vh;
+  margin-left: 1.4vw;
+}
+
+#all-btn-div{
+  width: 17vw;
+  height: 40vh;
+  /* background-color: pink; */
+
+  margin-top: 5vh;
+  margin-left: 1.4vw;
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 3vh;
+}
+
+.btn2{
+  width: 4.03vw;
+  height: 4vh;
+}
+
+#equal{
+  width: 8.35vw;
+  height: 4vh;
+}
