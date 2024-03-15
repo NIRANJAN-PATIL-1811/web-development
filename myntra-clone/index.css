@@ -1,19 +1,24 @@
 *{
   margin: 0;
+  padding: 0;
 }
 
 
 #main-container{
   width: 100%;
   height: 75px;
-  /* background-color: pink; */
+  background-color: white;
 
   display: flex;
   align-items: center;
+
+  box-shadow: 0 0 10px rgb(174, 175, 77);
+  position: fixed;
+  top: 0;
 }
 
 #logo{
-  width: 112px;
+  width: 111px;
   margin-left: 25px;
   margin-top: 18px;
 }
@@ -42,7 +47,7 @@
 }
 
 #search-symbol{
-  height: 32px;
+  height: 30px;
   background-color: white;
   border-top: 1px solid rgb(216, 216, 216);
   border-left: 1px solid rgb(216, 216, 216);
@@ -55,4 +60,83 @@
 
 .icons{
   margin-left: 30px;
+}
+
+#main-tag{
+  width: 100%;
+  height: 800px;
+}
+
+#offer-tag{
+  width: 230px;
+  font-size: 25px;
+  height: 50px;
+  background-color: rgb(104, 101, 101);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  rotate: 270deg;
+  position: fixed;
+
+  margin-top: 250px;
+  margin-left: 90%;
+}
+
+body{
+  height: 2000px;
+}
+
+#offer-1{
+  margin-top: 20px;
+  width: 100%;
+  height: 250px;
+  /* background-size: cover; */
+  display: flex;
+  justify-content: center;
+}
+
+.offer-1-img{
+  height: 250px;
+  margin-top: 80px;
+}
+
+
+#offer-2{
+  margin-top: 130px;
+  height: 400px;
+  background-image: url(offer5.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#all-images{
+  height: 180px;
+  width: 100%;
+
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+
+#offer-3{
+  margin-top: 52px;
+  height: 400px;
+  background-image: url(offer3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-imgs{
+  height: 179px;
+}
+
+#all-images-2{
+  height: 180px;
+  width: 98%;
+
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
