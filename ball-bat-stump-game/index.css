@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+  width: 40vw;
+  height: 60vh;
+  margin-top: 20vh;
+  margin-left: 30vw;
+  border: 0.1vh solid black;
+  border-radius: 3vh;
+}
+
+.btn-container{
+  height: 20vh;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn-class{
+  border: none;
+  border-radius: 2vh;
+}
+
+.btn{
+  width: 10vw;
+  height: 20vh;
+  border-radius: 2vh;
+}
+
+#ball-btn{
+  background-image: url(ball.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bat-btn{
+  background-image: url(bat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#stump-btn{
+  background-image: url(stumps.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#score-container{
+  margin-top: 4vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#main-line{
+  margin-top: 8vh;
+  display: flex;
+  justify-content: center;
+}
